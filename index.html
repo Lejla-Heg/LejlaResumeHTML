@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <!--KOMENTAR OZNAKA
@@ -16,13 +17,31 @@
     Due Date: 22.10.2021-->
     <figure><img src="Profilna 4.jpg" width="250" height="300" alt="My photo">
     <br>
+    <div>
     <figurecaption>STUDENT OF SOFTWARE ENGINEERING
     </figurecaption>
     </figure>
-    <blockquote><i>Experience is the name everyone gives to their mistakes.</i></blockquote>
-    <h2>ABOUT ME</h2>  
+    <blockquote class="QUOTE"><i>Experience is the name everyone gives to their mistakes.</i></blockquote>
+    </div>
+
+    <p class="NAV">
+        <!--The first paragraf that points to others-->
+        <a href="#ABOUT ME">ABOUT ME</a>
+        <a href="#WORK EXPERIENCE">WORK EXPERIENCE</a>
+        <a href="#CONTACT ME">CONTACT ME</a>
+        <a href="#SKILLS">SKILLS</a>
+        <a href="#LANGUAGES">LANGUAGES</a>
+        <a href="#EDUCATION">EDUCATION</a>
+    </p>
+
+    <!--ABOUT ME-->
+
+    <a name="ABOUT ME"><h2 class="ABOUT">ABOUT ME</h2> </a> 
+    <!--Using the class so we can later on
+    change only that class in css, for example
+    size, color, etc for only that class-->
     <hr>
-    <p>I am a student of the bachelor
+    <p class="BIO">I am a student of the bachelor
         program, software engineering. <br>
         passion lies in learning about the
         latest technologies. <br>
@@ -36,40 +55,59 @@
         Expressed organizational skills
         support my versatility, and contribute
         to the desired personal improvement</p>
-    <h2>WORK EXPERIENCE</h2>
+
+    <!--WORK EXPERIENCE-->
+
+    <a name="WORK EXPERIENCE"><h2 class="EXPERIENCE">WORK EXPERIENCE</h2></a>
+    <div class="JOBCOLOR">
     <hr>
+        <div class="COMPNAME1">
         <strong><li><ins>Data Associate</ins></li></strong>
-        <h4><i>Checklens | Aug 2020 - Dec 2020</i></h4>
-        <p>- Deliver high-quality labeled data, leveraging guidelines to
+        </div>
+        <h4 class="JOBNAME1"><i>Checklens | Aug 2020 - Dec 2020</i></h4>
+        <p class="JOB1">- Deliver high-quality labeled data, leveraging guidelines to
             meet specific key performance indicators, and using inhouse tools and software. <br>
             -Report issues with tools and software to the development
             team when necessary. <br>
             -Provide feedback for improvements to existing tooling
             that can increase labeling throughput and quality. <br>
             - Working with CVAT (Computer Vision Annotation Tool) <br></p>
+            
+        <div class="COMPNAME2">
         <strong><li><ins>Internship</ins></li></strong>
-        <h4><i>FabLab Sarajevo | Aug 2020 - Nov 2020</i></h4>
-        <p>- FabLab – digital fabrication laboratory – is a technical
+        </div>
+        <h4 class="JOBNAME2"><i>FabLab Sarajevo | Aug 2020 - Nov 2020</i></h4>
+        <p class="JOB2">- FabLab – digital fabrication laboratory – is a technical
             prototyping platform for invention and therefore I was
             working on 3D modeling, Arduino projects, workshops. <br>
             - Designing visuals for upcoming events <br></p>
+
+        <div class="COMPNAME3">
         <strong><li><ins>Meeting Room Attendant</ins></li></strong>
-        <h4><i>EBRD (European Bank for Reconstruction and Development) | May 2019</i></h4>
-        <p>-Assist in the management of the meeting rooms. <br>
+        </div>
+        <h4 class="JOBNAME3"><i>EBRD (European Bank for Reconstruction and Development) | May 2019</i></h4>
+        <p class="JOB3">-Assist in the management of the meeting rooms. <br>
             - Keep statistical records - event attendees, audio-visual
             equipment used. <br>
             - Respond to delegates, business guests, and speaker
             inquiries.<br></p>
+
+        <div class="COMPNAME4">
         <strong><li><ins>Team Leader</ins></li></strong>
-        <h4><i>NGO Marathon Sarajevo | Sep 2017 - Nov 2019</i></h4>
-        <p>-Contributing for projects such as "Sarajevo Half Marathon" <br>
+        </div>
+        <h4 class="JOBNAME4"><i>NGO Marathon Sarajevo | Sep 2017 - Nov 2019</i></h4>
+        <p class="JOB4">-Contributing for projects such as "Sarajevo Half Marathon" <br>
             - Website maintenance <br>
             -Cooperating with sponsors<br></p>
-    <h3>CONTACT ME</h3>
+        </div>
+
+    <!--CONTACT ME-->
+
+    <a name="CONTACT ME"><h3 class="CONTACT">CONTACT ME</h3></a>
     <hr>
     <p>
         <strong><address>
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <p class="CONTACTINFO"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                 <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg> Adress: Trg Djece Dobrinje 31, Sarajevo, Bosnia and Herzegovina <br>
@@ -85,7 +123,10 @@
             </strong></address>
     </p>
     
-    <h3>SKILLS</h3>
+    <!--SKILLS-->
+
+    <a name="SKILLS"><h3 class="SKILLS">SKILLS</h3></a>
+    <div class="SKILLS">
     <hr>
     <li>Programming Skills</li>
     <ol>
@@ -99,8 +140,12 @@
     </ol>
     <li>Organization Skills</li>
     <li>Social Media Marketing</li>
+    </div>
     
-    <h3>LANGUAGES</h3>
+    <!--LANGUAGES-->
+
+    <a name="LANGUAGES"><h3 class="LANGUAGES">LANGUAGES</h3></a>
+    <div class="LANGUAGES">
     <hr>
     <table>
         <tr> <!--ROW-->
@@ -121,14 +166,22 @@
         </tr>
     </table>
     <p></p>
-    <h3>EDUCATION</h3>
+    </div>
+
+    <!--EDUCATION-->
+
+    <a name="EDUCATION"><h3 class="EDUCATION">EDUCATION</h3></a>
     <hr>
+    <div class="EDUCATION1">
     <strong><li>Riga Technical University</li></strong>
-    <h4>BTech, Computer Software Engineering | Jan 2021 - Jun 2021</h4>
-    <p>- Erasmus+ exchange at one of the leading higher education institutions in Latvia.</p>
+    </div>
+    <h4 class="EDULOC1">BTech, Computer Software Engineering | Jan 2021 - Jun 2021</h4>
+    <p class="EDU1">- Erasmus+ exchange at one of the leading higher education institutions in Latvia.</p>
     <br>
+    <div class="EDUCATION2">
     <strong><li>International University of Sarajevo</li></strong>
-    <h4>Software Engineering| Sep 2019 - Now</h4>
-    <p>- Bachelor's programme</p>
+    </div>
+    <h4 class="EDULOC2">Software Engineering| Sep 2019 - Now</h4>
+    <p class="EDU2">- Bachelor's programme</p>
 </body>
 </html>

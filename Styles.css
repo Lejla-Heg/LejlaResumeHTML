@@ -1,0 +1,326 @@
+/*--KOMENTAR OZNAKA
+Name: Lejla Heganovic
+Course: CS412
+Assignment: Resume CSS
+Due Date: 01.11.2021-->*/
+h2.ABOUT{
+    /*Using the dot h2. to address the class from HTML*/
+    color:lightskyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 1%;
+    font-size: 24pt;
+    text-align: center;
+}
+
+p.NAV{
+    background-color:rgb(245, 122, 200);
+    opacity: 0.8;
+    border-radius: 25px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3.CONTACT{
+    color:lightskyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 1%;
+    font-size: 24pt;
+    text-align: center;
+}
+
+/*TITLES*/
+
+h3.SKILLS{
+    color:lightskyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 1%;
+    font-size: 24pt;
+    text-align: center;
+
+}
+
+h3.EDUCATION{
+    color:lightskyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 1%;
+    font-size: 24pt;
+    text-align: center;
+
+}
+
+h3.LANGUAGES{
+    color:lightskyblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 1%;
+    font-size: 24pt;
+    text-align: center;
+}
+
+h2.EXPERIENCE{
+    color:lightskyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 1%;
+    font-size: 24pt;
+    text-align: center;
+}
+
+/*ABOUT ME INFORMATION*/
+
+p.BIO{
+    height: 200px;
+    width: 600px;
+    opacity: 0.8;
+    background-color: rgb(52, 92, 201);
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*JOBS*/
+
+p.JOB1{
+    height: 100px;
+    width: 760px;
+    background-color: rgb(245, 122, 200);
+    opacity: 0.8;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p.JOB2{
+    height: 65px;
+    width: 760px;
+    background-color: rgb(245, 122, 200);
+    opacity: 0.8;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p.JOB3{
+    height: 65px;
+    width: 760px;
+    background-color: rgb(245, 122, 200);
+    opacity: 0.8;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p.JOB4{
+    height: 65px;
+    width: 760px;
+    background-color: rgb(245, 122, 200);
+    opacity: 0.8;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.COMPNAME1{
+    height: 20px;
+    width: 140px;
+    background-color: rgb(243, 243, 243);
+    opacity: 0.7;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*COMPANY NAMES*/
+
+div.COMPNAME2{
+    height: 20px;
+    width: 110px;
+    background-color: rgb(243, 243, 243);
+    opacity: 0.7;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.COMPNAME3{
+    height: 20px;
+    width: 210px;
+    background-color: rgb(243, 243, 243);
+    opacity: 0.7;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.COMPNAME4{
+    height: 20px;
+    width: 130px;
+    background-color: rgb(243, 243, 243);
+    opacity: 0.7;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p.CONTACTINFO{
+    height: 90px;
+    width: 530px;
+    opacity: 0.8;
+    background-color: rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*SKILLS*/
+
+div.SKILLS{
+    height: 225px;
+    width: 235px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*LANGUAGES*/
+
+div.LANGUAGES{
+    height: 155px;
+    width: 180px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+table{
+    width: 200px;
+}
+
+th, td{
+    padding: 7px 10px 10px 10px;
+}
+
+
+/*BLOCKQUOTE*/
+
+blockquote.QUOTE{
+    height: 75%;
+    float:inline-end;
+    width: 370px;
+    opacity: 0.8;
+    border-radius: 25px;
+    background-color: rgb(217, 85, 235);
+}
+
+/*EDUCATION*/
+
+div.EDUCATION{
+    height: 285px;
+    width: 480px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.EDUCATION1{
+    height: 20px;
+    width: 230px;
+    opacity: 0.8;
+    background-color:rgb(243, 243, 243);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+div.EDUCATION2{
+    height: 20px;
+    width: 290px;
+    opacity: 0.8;
+    background-color:rgb(243, 243, 243);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h4.EDULOC1{
+    height: 20px;
+    width: 480px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h4.EDULOC2{
+    height: 20px;
+    width: 310px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p.EDU1{
+    height: 20px;
+    width: 590px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p.EDU2{
+    height: 20px;
+    width: 190px;
+    opacity: 0.8;
+    background-color:rgb(245, 114, 38);
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*JOB NAMES*/
+
+h4.JOBNAME1{
+    height: 20px;
+    width: 250px;
+    background-color:rgb(52, 92, 201);
+    opacity: 0.8;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4.JOBNAME2{
+    height: 20px;
+    width: 315px;
+    background-color:rgb(52, 92, 201);
+    opacity: 0.8;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4.JOBNAME3{
+    height: 20px;
+    width: 545px;
+    background-color:rgb(52, 92, 201);
+    opacity: 0.8;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4.JOBNAME4{
+    height: 20px;
+    width: 370px;
+    background-color:rgb(52, 92, 201);
+    opacity: 0.8;
+    border-radius: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*BACKGROUND*/
+
+body{
+    background-image: url(pozadina1.jpg);
+
+}
+
+/*ROUNDED PROFILE PHOTO*/
+
+img {
+    border-radius: 8px;
+  }
